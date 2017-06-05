@@ -1,0 +1,25 @@
+{
+	"app":{
+		"title":"TheFancyCards",
+		"version":"1.0"
+	},
+	"dbconf_dev":{
+		"driver":"mysql",
+		"dbhost":"localhost",
+		"dbuser":"root",
+		"dbpass":"",
+		"dbname":"proyectosolo"
+    },
+  "dbconf_pro":{
+		"driver":"mysql",
+		"dbhost":"localhost",
+		"dbuser":"tonim12_ps",
+		"dbpass":"al4mn3s",
+		"dbname":"tonim12_proyectoSolo"
+	},
+  "assets":{
+    "css":"bootstrap.min.css",
+    "js":"app.js"
+  }
+
+}

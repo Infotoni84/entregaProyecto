@@ -1,0 +1,79 @@
+.gestionUsuarios, .gestionProductos {
+    margin-bottom: 40px;
+}
+
+.gestionUsuarios div, .gestionProductos div {
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.delUser, .editUser, .editProducto, .estadoProducto {
+  text-align: center;
+}
+
+.delUser:hover {
+  background: #a51c17;
+}
+.editUser:hover, .editProducto:hover{
+  background: #aaafb7;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+th {
+  text-align: center;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+table td, table th {
+    padding: 3px 10px;
+}
+
+/* cellpadding */
+
+table input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.estadoProducto{
+  text-align: center;
+}
+
+.estadoProducto[data-activo="0"]{
+  background: #3cb371;
+}
+
+.estadoProducto[data-activo="0"]:hover{
+  background: #056c33;
+}
+
+.estadoProducto[data-activo="1"]{
+  background: #fb7b76;
+}
+
+.estadoProducto[data-activo="1"]:hover{
+  background: #a51c17;
+}
+
+.tab_usuarios {
+    border: 2px solid #0000FF;
+}
+
+.tab_productos {
+    border: 2px solid #00FF00;
+}
+
+.contenedor-tabla {
+    max-width: 100%;
+    overflow-y: auto;
+}
